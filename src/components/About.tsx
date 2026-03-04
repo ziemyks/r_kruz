@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { Timer, Zap, Target } from "lucide-react";
 
 const stats = [
-    { icon: <Timer className="w-5 h-5" />, label: "Quickness", value: "Short Track Power" },
-    { icon: <Zap className="w-5 h-5" />, label: "Focus", value: "Olympic Intensity" },
-    { icon: <Target className="w-5 h-5" />, label: "Strategy", value: "1500m Precision" },
+    { icon: <Timer className="w-5 h-5" />, label: "Ātrums", value: "Šorttreka jauda" },
+    { icon: <Zap className="w-5 h-5" />, label: "Fokuss", value: "Olimpiskā intensitāte" },
+    { icon: <Target className="w-5 h-5" />, label: "Stratēģija", value: "1500m precizitāte" },
 ];
 
 export default function About() {
@@ -32,8 +32,8 @@ export default function About() {
 
                         {/* Achievement Badge */}
                         <div className="absolute -bottom-6 -right-6 glass p-6 rounded-2xl border-bronze/30 shadow-2xl">
-                            <div className="text-bronze text-3xl font-bold mb-1">BRONZE</div>
-                            <div className="text-white/60 text-xs uppercase tracking-widest">BEIJING 2022</div>
+                            <div className="text-bronze text-3xl font-bold mb-1">BRONZA</div>
+                            <div className="text-white/60 text-xs uppercase tracking-widest">PEKINA 2022</div>
                         </div>
                     </motion.div>
 
@@ -44,14 +44,13 @@ export default function About() {
                         transition={{ duration: 0.8 }}
                     >
                         <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
-                            The Path to <br />
-                            <span className="text-gradient-bronze underline decoration-bronze/20 underline-offset-8">Olympic Excellence</span>
+                            Ceļš uz <br />
+                            <span className="text-gradient-bronze underline decoration-bronze/20 underline-offset-8">Olimpisko izcilību</span>
                         </h2>
 
                         <p className="text-lg text-slate-400 mb-8 leading-relaxed">
-                            Winning a medal in the Olympic 1500m short track isn't just about speed—it's about the resilience,
-                            strategic foresight, and the relentless pursuit of fractional improvements over years.
-                            Roberts Krūzbergs shares the blueprint of what it takes to perform when the world is watching.
+                            Medaļas izcīnīšana olimpiskajās spēlēs 1500 m šorttrekā nav tikai stāsts par ātrumu – tas ir stāsts par izturību, stratēģisko tālredzību un nerimstošu tiekšanos pēc sekundes simtdaļu uzlabojumiem gadu garumā.
+                            Roberts Krūzbergs dalās pieredzē par to, kas nepieciešams, lai sasniegtu virsotnes, kad uz tevi skatās visa pasaule.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
@@ -67,15 +66,15 @@ export default function About() {
                         <div className="space-y-4">
                             <div className="flex items-start gap-4">
                                 <div className="w-1.5 h-1.5 rounded-full bg-bronze mt-2.5" />
-                                <p className="text-slate-300 font-medium">Overcoming high-pressure environments</p>
+                                <p className="text-slate-300 font-medium">Augsta spiediena vides pārvarēšana</p>
                             </div>
                             <div className="flex items-start gap-4">
                                 <div className="w-1.5 h-1.5 rounded-full bg-bronze mt-2.5" />
-                                <p className="text-slate-300 font-medium">Strategic planning for peak performance</p>
+                                <p className="text-slate-300 font-medium">Stratēģiskā plānošana maksimālam sniegumam</p>
                             </div>
                             <div className="flex items-start gap-4">
                                 <div className="w-1.5 h-1.5 rounded-full bg-bronze mt-2.5" />
-                                <p className="text-slate-300 font-medium">Mental fortitude in the face of adversity</p>
+                                <p className="text-slate-300 font-medium">Garīgā noturība pret grūtībām</p>
                             </div>
                         </div>
                     </motion.div>

@@ -33,14 +33,14 @@ export default function ContactForm() {
                     className="text-center glass p-12 rounded-3xl border-bronze/20 max-w-lg"
                 >
                     <CheckCircle2 className="w-16 h-16 text-bronze mx-auto mb-6" />
-                    <h2 className="text-3xl font-bold mb-4">Request Sent!</h2>
-                    <p className="text-slate-400 mb-8 italic">"The first step to a medal is taking action."</p>
-                    <p className="text-slate-300">Roberts will review your request and get back to you shortly.</p>
+                    <h2 className="text-3xl font-bold mb-4">Pieprasījums nosūtīts!</h2>
+                    <p className="text-slate-400 mb-8 italic">"Pirmais solis līdz medaļai ir rīcība."</p>
+                    <p className="text-slate-300">Roberts izskatīs jūsu pieprasījumu un sazināsies ar jums tuvākajā laikā.</p>
                     <button
                         onClick={() => setStatus("idle")}
                         className="mt-8 text-bronze hover:text-bronze-light font-medium transition-colors"
                     >
-                        Send another request
+                        Nosūtīt vēl vienu pieprasījumu
                     </button>
                 </motion.div>
             </section>
@@ -59,8 +59,8 @@ export default function ContactForm() {
                         viewport={{ once: true }}
                         className="text-center mb-16"
                     >
-                        <h2 className="text-4xl md:text-5xl font-bold mb-4">Request a <span className="text-bronze">Speech</span></h2>
-                        <p className="text-slate-400 text-lg">Partner with an Olympian to inspire your team and drive excellence.</p>
+                        <h2 className="text-4xl md:text-5xl font-bold mb-4">Pieteikt <span className="text-bronze">motivācijas runu</span></h2>
+                        <p className="text-slate-400 text-lg">Sadarbojieties ar olimpieti, lai iedvesmotu savu komandu un tiektos uz izcilību.</p>
                     </motion.div>
 
                     <motion.form
@@ -74,39 +74,39 @@ export default function ContactForm() {
                             <div className="space-y-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-400 flex items-center gap-2">
-                                        <Building2 className="w-4 h-4 text-bronze" /> Company Name
+                                        <Building2 className="w-4 h-4 text-bronze" /> Uzņēmuma nosaukums
                                     </label>
                                     <input
                                         name="company"
                                         type="text"
                                         required
-                                        placeholder="Enter company name"
+                                        placeholder="Ievadiet uzņēmuma nosaukumu"
                                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-bronze transition-colors"
                                     />
                                 </div>
 
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-400 flex items-center gap-2">
-                                        <User className="w-4 h-4 text-bronze" /> Contact Person
+                                        <User className="w-4 h-4 text-bronze" /> Kontaktpersona
                                     </label>
                                     <input
                                         name="name"
                                         type="text"
                                         required
-                                        placeholder="Full name"
+                                        placeholder="Vārds, uzvārds"
                                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-bronze transition-colors"
                                     />
                                 </div>
 
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-400 flex items-center gap-2">
-                                        <Mail className="w-4 h-4 text-bronze" /> Contact Email
+                                        <Mail className="w-4 h-4 text-bronze" /> E-pasts
                                     </label>
                                     <input
                                         name="email"
                                         type="email"
                                         required
-                                        placeholder="email@company.com"
+                                        placeholder="epasts@uznemums.lv"
                                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-bronze transition-colors"
                                     />
                                 </div>
@@ -116,25 +116,25 @@ export default function ContactForm() {
                             <div className="space-y-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-400 flex items-center gap-2">
-                                        <Calendar className="w-4 h-4 text-bronze" /> Proposed Date(s)
+                                        <Calendar className="w-4 h-4 text-bronze" /> Vēlamais datums(-i)
                                     </label>
                                     <input
                                         name="dates"
                                         type="text"
                                         required
-                                        placeholder="e.g. Oct 15-20, 2026"
+                                        placeholder="piem. 2026. gada 15.-20. oktobris"
                                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-bronze transition-colors"
                                     />
                                 </div>
 
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-400 flex items-center gap-2">
-                                        <MessageSquare className="w-4 h-4 text-bronze" /> Event Details
+                                        <MessageSquare className="w-4 h-4 text-bronze" /> Papildu informācija
                                     </label>
                                     <textarea
                                         name="message"
                                         rows={4}
-                                        placeholder="Tell us more about the event and your goals..."
+                                        placeholder="Pastāstiet vairāk par pasākumu un jūsu mērķiem..."
                                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-bronze transition-colors resize-none"
                                     />
                                 </div>
@@ -150,13 +150,13 @@ export default function ContactForm() {
                             disabled={status === "sending"}
                             className="w-full py-4 bg-bronze hover:bg-bronze-dark text-white rounded-xl font-bold transition-all shadow-lg shadow-bronze/20 flex items-center justify-center gap-3 group disabled:opacity-50 disabled:cursor-not-allowed"
                         >
-                            {status === "sending" ? "Sending..." : "Send Request"}
+                            {status === "sending" ? "Sūta..." : "Nosūtīt pieprasījumu"}
                             <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                         </button>
 
                         <p className="text-center text-xs text-slate-500">
-                            Responses are typically sent within 24-48 business hours.
-                            Direct inquiries: <span className="hover:text-bronze transition-colors cursor-pointer">ziemyks@inbox.lv</span>
+                            Atbilde parasti tiek sniegta 24-48 darba stundu laikā.
+                            Tiešā saziņa: <span className="hover:text-bronze transition-colors cursor-pointer">ziemyks@inbox.lv</span>
                         </p>
                     </motion.form>
                 </div>

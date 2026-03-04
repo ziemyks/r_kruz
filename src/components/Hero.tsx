@@ -24,7 +24,7 @@ export default function Hero() {
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 border-bronze/20"
                 >
                     <Award className="w-4 h-4 text-bronze" />
-                    <span className="text-sm font-medium tracking-wider uppercase text-bronze-light">Olympic Bronze Medalist</span>
+                    <span className="text-sm font-medium tracking-wider uppercase text-bronze-light">Olimpiskās bronzas medaļas ieguvējs</span>
                 </motion.div>
 
                 <motion.h1
@@ -43,8 +43,8 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed font-light"
                 >
-                    From the speed of the ice to the power of the stage.
-                    Discover the mindset that built an Olympic legacy.
+                    No ledus ātruma līdz skatuves jaudai.
+                    Atklājiet domāšanas veidu, kas veido olimpisko mantojumu.
                 </motion.p>
 
                 <motion.div
@@ -57,14 +57,14 @@ export default function Hero() {
                         href="#contact"
                         className="group px-8 py-4 bg-bronze hover:bg-bronze-dark text-white rounded-full font-semibold transition-all flex items-center gap-2 shadow-lg shadow-bronze/20"
                     >
-                        Request Motivational Speech
+                        Pieteikt motivācijas runu
                         <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                     <a
                         href="#achievement"
                         className="px-8 py-4 glass hover:bg-white/10 text-white rounded-full font-semibold transition-all"
                     >
-                        The Achievement
+                        Sasniegumi
                     </a>
                 </motion.div>
             </div>

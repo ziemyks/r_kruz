@@ -8,18 +8,18 @@ export default function Footer() {
                             Roberts <span className="text-bronze">Krūzbergs</span>
                         </div>
                         <p className="text-slate-500 text-sm italic">
-                            "The path to silver and gold always starts with the bronze mindset."
+                            "Ceļš uz sudrabu un zeltu vienmēr sākas ar bronzas domāšanas veidu."
                         </p>
                     </div>
 
                     <div className="flex gap-8 text-sm font-medium text-slate-400">
-                        <a href="#achievement" className="hover:text-bronze transition-colors">Achievement</a>
-                        <a href="#contact" className="hover:text-bronze transition-colors">Speaking</a>
-                        <a href="mailto:ziemyks@inbox.lv" className="hover:text-bronze transition-colors">Contact</a>
+                        <a href="#achievement" className="hover:text-bronze transition-colors">Sasniegumi</a>
+                        <a href="#contact" className="hover:text-bronze transition-colors">Runas</a>
+                        <a href="mailto:ziemyks@inbox.lv" className="hover:text-bronze transition-colors">Kontakti</a>
                     </div>
 
                     <div className="text-slate-600 text-xs">
-                        © {new Date().getFullYear()} Roberts Krūzbergs. Built for Excellence.
+                        © {new Date().getFullYear()} Roberts Krūzbergs. Radīts izcilībai.
                     </div>
                 </div>
             </div>
