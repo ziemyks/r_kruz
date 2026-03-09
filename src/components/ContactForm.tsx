@@ -156,7 +156,6 @@ export default function ContactForm() {
 
                         <p className="text-center text-xs text-slate-500">
                             Atbilde parasti tiek sniegta 24-48 darba stundu laikā.
-                            Tiešā saziņa: <span className="hover:text-bronze transition-colors cursor-pointer">ziemyks@inbox.lv</span>
                         </p>
                     </motion.form>
                 </div>

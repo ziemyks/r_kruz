@@ -15,7 +15,7 @@ export default function Footer() {
                     <div className="flex gap-8 text-sm font-medium text-slate-400">
                         <a href="#achievement" className="hover:text-bronze transition-colors">Sasniegumi</a>
                         <a href="#contact" className="hover:text-bronze transition-colors">Runas</a>
-                        <a href="mailto:ziemyks@inbox.lv" className="hover:text-bronze transition-colors">Kontakti</a>
+                        <a href="#contact" className="hover:text-bronze transition-colors">Kontakti</a>
                     </div>
 
                     <div className="text-slate-600 text-xs">
