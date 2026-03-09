@@ -59,7 +59,7 @@ export default function ContactForm() {
                         viewport={{ once: true }}
                         className="text-center mb-16"
                     >
-                        <h2 className="text-4xl md:text-5xl font-bold mb-4">Pieteikt <span className="text-bronze">motivācijas runu</span></h2>
+                        <h2 className="text-4xl md:text-5xl font-bold mb-4">Pieteikt <span className="text-bronze">sadarbību</span></h2>
                         <p className="text-slate-400 text-lg">Sadarbojieties ar olimpieti, lai iedvesmotu savu komandu un tiektos uz izcilību.</p>
                     </motion.div>
 
