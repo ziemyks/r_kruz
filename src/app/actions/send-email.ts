@@ -22,9 +22,9 @@ export async function sendSpeechRequest(formData: FormData) {
         const { data, error } = await resend.emails.send({
             from: "Roberts Krūzbergs Web <onboarding@resend.dev>",
             to: [process.env.RECIPIENT_EMAIL || "info@robertskruzbergs.lv"],
-            subject: `Jauns pasākuma pieprasījums: ${company}`,
+            subject: `Jauns sadarbības pieprasījums: ${company}`,
             html: `
-        <h1>Jauns motivācijas runas pieprasījums</h1>
+        <h1>Jauns sadarbības pieprasījums</h1>
         <p><strong>Uzņēmums:</strong> ${company}</p>
         <p><strong>Kontaktpersona:</strong> ${name}</p>
         <p><strong>E-pasts:</strong> ${email}</p>
