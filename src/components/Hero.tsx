@@ -24,14 +24,14 @@ export default function Hero() {
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 border-bronze/20"
                 >
                     <Award className="w-4 h-4 text-bronze" />
-                    <span className="text-sm font-medium tracking-wider uppercase text-bronze-light">Olimpiskās bronzas medaļas ieguvējs</span>
+                    <span className="text-sm font-medium tracking-wider uppercase text-bronze-light">Milano-Kortina 2026 Bronzas Medaļnieks</span>
                 </motion.div>
 
                 <motion.h1
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="text-6xl md:text-8xl font-bold mb-6 tracking-tight"
+                    className="text-6xl md:text-8xl font-bold mb-6 tracking-tight text-white leading-[1.1]"
                 >
                     Roberts <br />
                     <span className="text-gradient-bronze">Krūzbergs</span>
@@ -41,10 +41,10 @@ export default function Hero() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
-                    className="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed font-light"
+                    className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed font-light"
                 >
-                    No ledus ātruma līdz skatuves jaudai.
-                    Atklājiet domāšanas veidu, kas veido olimpisko mantojumu.
+                    Pirmais Latvijas sportists vēsturē, kurš izcīnījis Olimpisko medaļu šorttrekā. <br className="hidden md:block" />
+                    Stāsts par izturību, disciplīnu un augstākā līmeņa sniegumu.
                 </motion.p>
 
                 <motion.div
@@ -64,7 +64,7 @@ export default function Hero() {
                         href="#achievement"
                         className="px-8 py-4 glass hover:bg-white/10 text-white rounded-full font-semibold transition-all"
                     >
-                        Sasniegumi
+                        Vēsturiskie Sasniegumi
                     </a>
                 </motion.div>
             </div>
